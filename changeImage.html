@@ -15,13 +15,21 @@
 		    function on(){
 		    	document.getElementById("xti").src = "images/lamp-on.png"
 		    }
+
+			function off(){
+				document.getElementById("xti").src = "images/lamp-off.png"
+			}			
 			</script>
 
 
 		</head>
 		<body>
-				<img id="xti" onclick="on();"
+				<!--<img id="xti" onclick="on();"
+				 src="images/lamp-off.jpg"/>-->
+
+				 <img id="xti" onmouseover="on();" onclick="off();"
 				 src="images/lamp-off.jpg"/>
+
 
 		</body>
 		</html>
