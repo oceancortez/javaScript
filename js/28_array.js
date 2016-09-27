@@ -29,7 +29,7 @@ alert(pessoa.nome);
 
 //Array Funções
 var frutas = ["Abacaxi", "Banana", "Cebola"];
-
+    
 function todos(elem, ind, obj){
     return (typeof elem == "string");
 }
